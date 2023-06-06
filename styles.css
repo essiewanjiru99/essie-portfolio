@@ -334,6 +334,10 @@ ul {
   padding: 20px 0;
 }
 
+.form-inputs li {
+  list-style: none;
+}
+
 .text-container ul li {
   color: #3a4a42;
   background: #ebf0ee;
@@ -381,22 +385,21 @@ ul {
 }
 
 .contact-form p {
-width: 100%;
-font-family: 'Inter' , sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-text-align: center;
-color: #172b4d;
-margin-bottom: 58px;
-/* flex: none;
-order: 0;
-flex-grow: 0; */
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 58px;
 }
 
-.form-inputs li {
-  list-style: none;
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
@@ -411,6 +414,10 @@ textarea {
   margin-bottom: 24px;
 }
 
+textarea:focus {
+  outline-color: #36b37f;
+}
+
 input::placeholder {
   padding: 15px 16px;
   font-family: 'Inter', sans-serif;
@@ -418,24 +425,14 @@ input::placeholder {
   font-size: 15px;
 }
 
+input:focus {
+  outline-color: #36b37f;
+}
+
 textarea::placeholder {
   padding: 12px;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-}
- 
-.form-inputs button {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  padding: 12px;
-  background: #36b37f;
-  border-radius: 4px;
-  color: #fff;
-  border: none;
-  font-size: 17px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
 }
 
 footer {
@@ -449,7 +446,7 @@ footer a {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   text-decoration: none;
-  color: #42526E;
+  color: #42526e;
 }
 
 footer .socials {
@@ -458,8 +455,7 @@ footer .socials {
 }
 
 footer hr {
-  border: 2.5px solid black;
+  border: 2.5px solid #000;
   border-radius: 5px;
   width: 120px;
-
 }
