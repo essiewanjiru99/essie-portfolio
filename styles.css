@@ -5,6 +5,9 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom 76px;
 }
 
 .page {
