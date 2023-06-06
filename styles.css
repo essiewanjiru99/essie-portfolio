@@ -442,7 +442,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 45px;
+  margin-bottom: 8px;
 }
 
 footer a {
@@ -454,4 +454,12 @@ footer a {
 
 footer .socials {
   margin-top: 30px;
+  margin-bottom: 32px;
+}
+
+footer hr {
+  border: 2.5px solid black;
+  border-radius: 5px;
+  width: 120px;
+
 }
