@@ -375,7 +375,6 @@ ul {
 
 .contact-form {
 width: 327px;
-height: 363px;
 font-family: 'Inter' , sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -395,8 +394,8 @@ flex-grow: 0; */
   margin: 0 auto;
 }
 
-.form-inputs {
-
+section.form-inputs {
+  position: static;
 }
 
 input {
@@ -411,6 +410,14 @@ textarea {
   margin-bottom: 24px;
 }
 
+input::placeholder {
+  padding: 15px 16px;
+}
+
+textarea::placeholder {
+  padding: 12px;
+}
+
 button {
   display: flex;
   justify-content: center;
@@ -418,5 +425,9 @@ button {
   background: #36b37f;
   border-radius: 4px;
   color: #fff;
+}
+
+#footer {
+  position: static;
 }
 
