@@ -80,8 +80,27 @@ ul {
   transition: transform 0.3s ease;
 }
 
+.text ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.categories-list ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 8px;
+  gap: 9px;
+}
+
 .social-icons ul:hover {
-  transform: scale(2.0);
+  transform: scale(2);
 }
 
 .social-icons ul li a {
@@ -172,14 +191,6 @@ ul {
   flex-direction: row;
   align-items: center;
   gap: 9px;
-}
-
-.text ul {
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  gap: 10px;
 }
 
 .text li {
@@ -279,17 +290,6 @@ ul {
   line-height: 32px;
   color: #344563;
   margin: -20px 0 20px 0;
-}
-
-.categories-list ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0 8px;
-  gap: 9px;
 }
 
 .categories-list li {
