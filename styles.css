@@ -330,6 +330,11 @@ ul {
   padding: 15px 16px;
 }
 
+#invisible {
+  background-color: transparent;
+  color: transparent;
+}
+
 textarea {
   height: 114px;
   background: #fff;
