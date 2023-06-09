@@ -29,7 +29,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -132,11 +131,10 @@ You can deploy this project using:
 ## 👥 Author <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Esther Mwaura**
 
-- GitHub: [@githubhandle](https://github.com/essiewanjiru99)
-- Twitter: [@twitterhandle](https://twitter.com/ElleryGregs?t=t4_9As3fYTZT-sNBE10ZSw&s=09)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/essie-mwaura-b4011b265)
+- GitHub: [@essiewanjiru99](https://github.com/essiewanjiru99)
+- LinkedIn: [Esther Mwaura](https://www.linkedin.com/in/essie-mwaura-b4011b265)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
