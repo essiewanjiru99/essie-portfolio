@@ -219,10 +219,8 @@ ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
-  transitions-branch
   transition: background-color 0.3s ease;
   margin-bottom: 24px;
-  desktop-branch
 }
 
 .button-text:hover {
