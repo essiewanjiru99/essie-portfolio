@@ -77,6 +77,11 @@ ul {
   justify-content: center;
   gap: 20px;
   margin-top: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icons ul:hover {
+  transform: scale(2.0);
 }
 
 .social-icons ul li a {
