@@ -88,21 +88,6 @@ ul {
   gap: 10px;
 }
 
-.categories-list ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0 8px;
-  gap: 9px;
-}
-
-.social-icons ul:hover {
-  transform: scale(2);
-}
-
 .social-icons ul li a {
   text-decoration: none;
 }
@@ -304,6 +289,10 @@ ul {
   padding: 0;
   margin: 0 8px;
   gap: 8px;
+}
+
+.social-icons ul:hover {
+  transform: scale(2);
 }
 
 .categories-list li {
