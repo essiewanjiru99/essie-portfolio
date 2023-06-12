@@ -62,10 +62,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+
+This is the [live demo link](https://essiewanjiru99.github.io/essie-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Key Features <a name="key-features"></a>
 - added index.HTML
